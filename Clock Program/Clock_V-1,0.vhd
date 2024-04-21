@@ -14,10 +14,16 @@
     -- ========================================================================
     --                         Declaración de la entidad
     -- ========================================================================
-    entity Reloj is
+    entity Clock is
         Port (
-            CLK : in STD_LOGIC;
-            RST : in STD_LOGIC;
-            LED : out STD_LOGIC_VECTOR (3 downto 0)
+            
         );
-    end Reloj;
+    end Clock;
+
+    -- ========================================================================
+    --                       Declaración de la arquitectura
+    -- ========================================================================
+    architecture Main of Clock is
+    begin
+        
+    end Main;
