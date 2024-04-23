@@ -18,7 +18,7 @@ Development of a clock with the DE2-115 card that does the following:
   - Elaborate the state machines for that counters.
 - [ ] Show the counters on the different 7-segment displays.
   - Also, show the seconds on a green LED (That can be done with a clock pulse).
-- [ ] Reset the counters if:
+- [ ] Reset the counters on the next state if:
   - Hours equals 23.
   - Minutes is equal to 59.
   - Seconds is equal to 59.
