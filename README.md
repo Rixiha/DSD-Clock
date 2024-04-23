@@ -4,8 +4,9 @@ Development of a clock by implementing state machines, memory usage and counters
 ## Project features
 Development of a clock with the DE2-115 card that does the following:
 - Display the hour, minutes and seconds.
-  > [!NOTE]
-  > The seconds are shown in turn with an LED (8 - Green).
+
+> [!NOTE]
+> The seconds are shown in turn with an LED (8 - Green).
 
 - Hour and minute setting.
 - Assigning an alarm.
@@ -21,9 +22,11 @@ Development of a clock with the DE2-115 card that does the following:
   - Hours equals 23.
   - Minutes is equal to 59.
   - Seconds is equal to 59.
-  > [!NOTE]
-  > This is because the next counter is incremented after the reset of each one respectively.
-  > If seconds reaches 59 and minutes is at 0, seconds will be 0 and minutes will change to 1, and so on taking into account the limits on each counter.
+
+> [!NOTE]
+> This is because the next counter is incremented after the reset of each one respectively.
+> If seconds reaches 59 and minutes is at 0, seconds will be 0 and minutes will change to 1, and so on taking into account the limits on each counter.
+
 - [ ] Design a module for the alarm.
 - [ ] Comparative between time on clock and alarm, if the times are the same, activate a sequence.
 - [ ] Set a modification status for the hour and minute counter, to enter these parameters manually.
